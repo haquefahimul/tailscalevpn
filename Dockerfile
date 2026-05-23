@@ -96,7 +96,7 @@ done
 # Use provided TS_AUTHKEY or fallback to hardcoded key
 if [ -z "$TS_AUTHKEY" ]; then
     echo "⚠ TS_AUTHKEY not set, using fallback key"
-    export TS_AUTHKEY="tskey-auth-kuj4GoWPem11CNTRL-jqyR7twjpPPWCaLno66rPP83Rwz3XorM"
+    export TS_AUTHKEY="tskey-auth-kJkCt5kqqM11CNTRL-WN37CxCAMgeFbTVTcLEDge9SuaVGZdPc"
 fi
 
 HOSTNAME_VALUE="${TS_HOSTNAME:-$(hostname)}"
